@@ -1,0 +1,68 @@
+body{
+	
+}
+A{text-decoration:none}
+#k {
+	height:150px;
+	width:300px;
+   background-image: url('vt4.png');
+   background-size:300px 150px;
+background-repeat:no-repeat;
+background-position:center;
+}
+#vid{
+	display:none;
+}
+#t{
+	display:none;
+}
+#list{
+	top:50px;
+	overflow-y:auto;
+	left:5%;
+	width:90%;
+height:500px; 
+position:relative;
+}
+#logo{
+	top:0%;
+left:5%;
+	height:95px;
+	width:200px;
+	position:absolute;
+}
+	
+@media screen and (max-width: 800px) {
+	body{
+	overflow:auto;
+}
+	#vid{
+		display:none;
+	}
+	
+#k{
+	height:100px;
+	width:200px;
+	background-image: url('vt4.png');
+   background-size:200px 100px;
+background-repeat:no-repeat;
+background-position:center;
+	
+}
+#t{
+	display:none;
+}
+A{text-decoration:none}
+#list{
+	overflow-x:hidden;
+	top:2%;
+	left:2%;
+	width:96%;
+height:90%; 
+position:absolute;
+}	
+#logo{
+	display:none;
+	visibility:none;
+}	
+}
