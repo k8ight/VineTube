@@ -31,10 +31,15 @@ left:5%;
 	width:200px;
 	position:absolute;
 }
-	
+#id{
+	display:none;
+}	
 @media screen and (max-width: 800px) {
-	body{
+		body{
 	overflow:auto;
+}
+#id{
+	display:none;
 }
 	#vid{
 		display:none;
